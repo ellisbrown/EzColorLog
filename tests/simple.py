@@ -1,6 +1,6 @@
 import logging
 
-from easylog import root_logger as logger
+from ezcolorlog import root_logger as logger
 
 # debug level
 logger.setLevel(logging.DEBUG)

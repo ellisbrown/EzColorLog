@@ -1,5 +1,5 @@
 import logging
-from easylog import root_logger, setup_logging, log_stdout
+from ezcolorlog import root_logger, setup_logging, log_stdout
 
 
 root_logger.info("Setting up logging...")
