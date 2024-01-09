@@ -12,7 +12,6 @@ readme = "README.md"
 requires-python = ">=3"
 keywords = ["logging", "color", "easy", "simple", "pretty"]
 license = {file = "LICENSE"}
-urls = { "Source Code"= "https://github.com/ellisbrown/easylog" }
 classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.8",
@@ -34,6 +33,10 @@ dependencies = [
     "IPython",
 ]
 dynamic = ["version"]
+
+[project.urls]
+Code = "https://github.com/ellisbrown/easylog"
+Issues = "https://github.com/ellisbrown/easylog/issues"
 
 [project.optional-dependencies]
 tqdm = ["tqdm"]
