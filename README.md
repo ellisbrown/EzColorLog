@@ -1,4 +1,4 @@
-[![Build](https://github.com/ellisbrown/EzColorLog/actions/workflows/pypi-publish.yml/badge.svg)](https://github.com/ellisbrown/EzColorLog/actions/workflows/pypi-publish.yml)
+<!-- [![Build](https://github.com/ellisbrown/EzColorLog/actions/workflows/pypi-publish.yml/badge.svg)](https://github.com/ellisbrown/EzColorLog/actions/workflows/pypi-publish.yml) -->
 <!-- [![codecov](https://codecov.io/gh/ellisbrown/ezcolorlog/branch/master/graph/badge.svg)](https://codecov.io/gh/ellisbrown/ezcolorlog) -->
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ellisbrown/ezcolorlog/blob/master/LICENSE)
 [![PyPI version](https://badge.fury.io/py/ezcolorlog.svg)](https://badge.fury.io/py/ezcolorlog)
