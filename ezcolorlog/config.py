@@ -2,7 +2,7 @@ import os.path as osp
 import yaml
 
 
-ROOT = osp.dirname(osp.dirname(osp.abspath(__file__)))
+ROOT = osp.dirname(osp.abspath(__file__))
 CFG_FILE = osp.join(ROOT, "defaults.yaml")
 
 
