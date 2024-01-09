@@ -1,0 +1,35 @@
+user:
+  log_fmt: standard
+
+format:
+  simple: "%(asctime)s %(filename)s:%(lineno)s [%(levelname).1s] → %(message)s"
+  standard: "%(asctime)s PID=%(process)d %(filename)s:%(lineno)s %(funcName)s() %(levelname)s → %(message)s"
+  verbose: "%(asctime)s %(hostname)s [PID=%(process)d] %(filename)s:%(lineno)s %(funcName)s() %(levelname)s: %(message)s"
+  logfile: "%(asctime)s,PID=%(process)d,%(filename)s:%(lineno)s,%(funcName)s(),%(levelname)s,%(message)s"
+  notebook: "{asctime} {color}{filename}:{lineno} [{levelname:.1s}]{reset} → {message}"
+
+
+style:
+  asctime:
+    color: green
+  hostname:
+    color: magenta
+  levelname:
+    color: black
+    bold: true
+  name:
+    color: blue
+  message:
+    color: white
+  programname:
+    color: cyan
+  username:
+    color: yellow
+  filename:
+    color: blue
+    bold: true
+  funcName:
+    color: blue
+  process:
+    color: yellow
+    faint: true

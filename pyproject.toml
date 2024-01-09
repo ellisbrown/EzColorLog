@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easylog"
+authors = [
+    {name = "Ellis Brown", email = "ellis.l.brown.ii@gmail.com"},
+]
+description = "A simple pretty Python logging interface."
+readme = "README.md"
+requires-python = ">=3"
+keywords = ["logging", "color", "easy", "simple", "pretty"]
+license = {file = "LICENSE"}
+urls = { "Source Code"= "https://github.com/ellisbrown/easylog" }
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Development Status :: 3 - Alpha",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "coloredlogs",
+    "colorama",
+    "pyyaml",
+    "IPython",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+tqdm = ["tqdm"]
+
+[tool.setuptools_scm]

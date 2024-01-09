@@ -1,0 +1,9 @@
+user:
+  log_fmt: my_log_format
+
+format:
+  my_log_format: "%(asctime)s %(filename)s:%(lineno)s\t[%(levelname).1s]→ %(message)s"
+
+style:
+  asctime:
+    color: magenta

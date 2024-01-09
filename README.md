@@ -14,10 +14,22 @@ pip install easylog
 ```
 
 ## Usage
+
+### Basic Root Logger Usage
+```python
+from easylog import root_loggger as logger
+
+logger.info('This is a log message')
+logger.debug('This is a debug message')
+logger.warning('This is a warning message')
+logger.error('This is an error message')
+logger.critical('This is a critical message')
+```
+
+### Basic Logger Usage
 ```python
 import logging
 from easylog import root_logger, setup_logging, log_stdout
-
 
 root_logger.info('Setting up logging...')
 logger = logging.getLogger("my_logger")
@@ -28,3 +40,4 @@ logger.warning('This is a warning message')
 logger.error('This is an error message')
 logger.critical('This is a critical message')
 ```
+
