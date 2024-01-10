@@ -5,7 +5,7 @@ Easy Logging
 - if in terminal, use a more complex colored logger
 """
 
-__version__ = "0.0.1"
+__version__ = "1.0.3"
 
 
 import logging
